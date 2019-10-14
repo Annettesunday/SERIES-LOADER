@@ -21,7 +21,7 @@ export default function HomePage() {
 
   return (
     <React.Suspense fallback={<div>Loading...</div>}>
-      <section className="episode-layout">
+      <section className="episode-layout" data-testid="episode-layout">
         <EpisodeList {...props} />
       </section>
     </React.Suspense>

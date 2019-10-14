@@ -17,7 +17,7 @@ const FavPage = (): JSX.Element => {
 
   return (
     <React.Suspense fallback={<div>Loading...</div>}>
-      <div className="episode-layout">
+      <div className="episode-layout" data-testid="fav-test">
         <EpisodeList {...props} />
       </div>
     </React.Suspense>

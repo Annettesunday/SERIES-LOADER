@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should match snapshot 1`] = `
+<DocumentFragment>
+  <header
+    class="header"
+  >
+    <div>
+      <h1
+        data-testid="header-test"
+      >
+        Rick and Morty
+      </h1>
+      <p>
+        Pick your favorite episode
+      </p>
+    </div>
+    <div>
+      <a
+        aria-current="page"
+        href="/"
+      >
+        Home
+      </a>
+       
+      <a
+        data-testid="fav-test"
+        href="/faves"
+      >
+        Favorite(s): 
+      </a>
+    </div>
+  </header>
+</DocumentFragment>
+`;

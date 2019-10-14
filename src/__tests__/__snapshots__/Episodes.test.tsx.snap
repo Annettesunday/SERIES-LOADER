@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EpisodesList /> matches snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="episode-box"
+    data-testid="episode-box"
+  >
+    <img
+      alt="Rick and Morty Pilot"
+      src="http://static.tvmaze.com/uploads/images/medium_landscape/15/37912.jpg"
+    />
+    <div
+      data-testid="episode-name"
+    >
+      Pilot
+    </div>
+    <section
+      style="display: flex; justify-content: space-between;"
+    >
+      <div
+        data-testid="season-number-test"
+      >
+        Season: 1 Number: 1
+      </div>
+      <button
+        data-testid="button-test"
+        type="button"
+      >
+        Fave
+      </button>
+    </section>
+  </section>
+</DocumentFragment>
+`;

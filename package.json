@@ -4,19 +4,25 @@
   "private": true,
   "dependencies": {
     "@reach/router": "^1.2.1",
+    "@testing-library/jest-dom": "^4.1.2",
+    "@testing-library/react": "^9.3.0",
+    "@types/jest": "^24.0.18",
     "@types/node": "^12.7.12",
     "@types/reach__router": "^1.2.6",
     "@types/react": "^16.9.5",
     "@types/react-dom": "^16.9.1",
+    "jest": "^24.9.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-scripts": "3.2.0",
+    "ts-jest": "^24.1.0",
     "typescript": "^3.6.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test ",
+    "test:watch": "react-scripts test --watch",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
